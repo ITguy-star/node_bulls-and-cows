@@ -6,6 +6,7 @@
  *
  * @return {number} A random 4-digit number
  */
+
 function generateRandomNumber() {
   const randomNumberArr = [Math.floor(Math.random() * 9 + 1)];
 

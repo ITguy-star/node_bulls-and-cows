@@ -8,6 +8,7 @@
  * @param {string} userInput - The user input
  * @return {boolean} - True if the user input is valid, false otherwise
  */
+
 function checkIsValidUserInput(userInput) {
   const isUnique = [...new Set(userInput)];
   const correctStr = /^\d{4}$/;

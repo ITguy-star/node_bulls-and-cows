@@ -12,6 +12,7 @@
  * @return {object} An object containing the number of bulls and cows.
  * Example: { bulls: 1, cows: 2 }
  */
+
 function getBullsAndCows(userInput, numberToGuess) {
   const secret = userInput.toString();
   const guess = numberToGuess.toString();
